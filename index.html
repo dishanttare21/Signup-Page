@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="sign-up">
+
+        <div class="side-img">
+            <img src="images/1.svg" alt="" class="image1">
+            <p>Already signed up? <a href="/">Login</a> ></p>
+        </div>
+
+        <div class="form-div">
+            <form action="" class="form" autocomplete="off" id="form">
+                <h2>Sign Up</h2>
+                <div class="name">
+                    <div>
+                        <label for="firstName">First Name</label>
+                        <input type="text" name="firstName" />
+                    </div>
+                    
+                    <div>
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="lastName" />
+                    </div>
+                </div>
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="eg. xyz@gmail.com" />
+                </div>
+                
+                <div>
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" placeholder="eg. dishant21" />
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" />
+                </div>
+                <div>
+                    <label for="email">Confirm Password</label>
+                    <input type="password" name="password2" id="password2" />
+                </div>
+                <label for="form" id="error"></label>
+                <button type="submit" class="btn" id="submit">Sign Up</button>
+            </form>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
